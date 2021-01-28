@@ -1,0 +1,96 @@
+{
+  "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+  "Alias": "Kun",
+  "Kind": "Solution",
+  "State": "Active",
+  "Children": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+        "Alias": "События",
+        "Kind": "Collection",
+        "State": "Suspend",
+        "Children": {
+          "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+        "Alias": "OData интеграции",
+        "Kind": "Collection",
+        "State": "Suspend",
+        "Children": {
+          "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+          "$values": []
+        }
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+        "Alias": "Процессы",
+        "Kind": "Collection",
+        "State": "Active",
+        "Children": {
+          "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+          "$values": [
+            {
+              "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+              "Alias": "ShP444",
+              "Kind": "Process",
+              "State": "Active",
+              "Children": {
+                "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+              "Alias": "ShP55",
+              "Kind": "Process",
+              "State": "Active",
+              "Children": {
+                "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+                "$values": []
+              }
+            },
+            {
+              "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+              "Alias": "ShP",
+              "Kind": "Process",
+              "State": "Active",
+              "Children": {
+                "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+                "$values": [
+                  {
+                    "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+                    "Alias": "1.0",
+                    "Kind": "ProcessScheme",
+                    "State": "Active",
+                    "Children": {
+                      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
+                      "$values": [
+                        {
+                          "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+                          "Alias": "noneStartEvent1",
+                          "Kind": "NoneEvent",
+                          "State": "Active"
+                        },
+                        {
+                          "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
+                          "Alias": "noneEndEvent1",
+                          "Kind": "NoneEvent",
+                          "State": "Active"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

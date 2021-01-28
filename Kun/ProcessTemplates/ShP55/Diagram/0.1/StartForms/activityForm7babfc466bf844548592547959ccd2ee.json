@@ -1,0 +1,11 @@
+{
+  "$type": "Comindware.Platform.Contracts.FormModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "ProcessForm",
+    "Owner": "ShP55",
+    "Alias": "activityForm7babfc466bf844548592547959ccd2ee"
+  },
+  "IsDefault": false,
+  "Origination": "Undefined"
+}
