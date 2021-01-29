@@ -1,0 +1,11 @@
+{
+  "$type": "Comindware.Platform.Contracts.GlobalVariableModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "GlobalVariable",
+    "Alias": "peremennaya"
+  },
+  "Name": "переменная",
+  "VariableType": "String",
+  "Value": "55"
+}
