@@ -2,7 +2,7 @@
   "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
   "Name": "Управление автопарком",
   "Alias": "Upravlenieavtoparkom",
-  "ExportDate": "2021-01-29T23:11:31.8292628+03:00",
+  "ExportDate": "2021-02-01T14:38:53.2402877+03:00",
   "Database": "1be96a6a-ad95-48db-ad51-9658dd53e1d4",
   "Server": "http://localhost:8087/",
   "Version": "3.6.787.0",
