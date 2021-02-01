@@ -2,7 +2,7 @@
   "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
   "Name": "управление",
   "Alias": "upravlenie",
-  "ExportDate": "2021-02-01T10:01:21.5859119+03:00",
+  "ExportDate": "2021-02-01T10:04:22.219537+03:00",
   "Database": "c8321bbf-6bd7-4fe3-9f53-7c378030d851",
   "Server": "http://localhost/",
   "Version": "3.6.787.0",
@@ -10,8 +10,8 @@
     "$type": "Comindware.Platform.Contracts.TransferStatistics, Comindware.Platform.Contracts",
     "RecordTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
-      "Found": 0,
-      "Exported": 0
+      "Found": 1,
+      "Exported": 1
     },
     "AccountTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
