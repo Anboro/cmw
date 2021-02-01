@@ -1,17 +1,17 @@
 {
   "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
-  "Name": "Управление автопарком",
-  "Alias": "Upravlenieavtoparkom",
-  "ExportDate": "2021-01-29T23:11:31.8292628+03:00",
-  "Database": "1be96a6a-ad95-48db-ad51-9658dd53e1d4",
-  "Server": "http://localhost:8087/",
+  "Name": "управление",
+  "Alias": "upravlenie",
+  "ExportDate": "2021-02-01T10:01:21.5859119+03:00",
+  "Database": "c8321bbf-6bd7-4fe3-9f53-7c378030d851",
+  "Server": "http://localhost/",
   "Version": "3.6.787.0",
   "ExportStatistics": {
     "$type": "Comindware.Platform.Contracts.TransferStatistics, Comindware.Platform.Contracts",
     "RecordTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
-      "Found": 11,
-      "Exported": 11
+      "Found": 0,
+      "Exported": 0
     },
     "AccountTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
@@ -60,8 +60,8 @@
     },
     "GlobalVariables": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
-      "Found": 1,
-      "Exported": 1
+      "Found": 0,
+      "Exported": 0
     }
   }
 }
