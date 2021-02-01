@@ -1,5 +1,5 @@
 {
   "$type": "Comindware.Platform.Contracts.SolutionInfoModel, Comindware.Platform.Contracts",
-  "Alias": "Upravlenieavtoparkom",
-  "Name": "Управление автопарком"
+  "Alias": "upravlenie",
+  "Name": "управление"
 }
