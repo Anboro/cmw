@@ -1,11 +1,11 @@
 {
   "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
-  "Name": "Управление автопарком",
-  "Alias": "Upravlenieavtoparkom",
-  "ExportDate": "2021-02-01T14:38:53.2402877+03:00",
-  "Database": "1be96a6a-ad95-48db-ad51-9658dd53e1d4",
-  "Server": "http://localhost:8087/",
-  "Version": "3.6.787.0",
+  "Name": "test",
+  "Alias": "test",
+  "ExportDate": "2021-02-01T17:04:48.5471744+03:00",
+  "Database": "c8321bbf-6bd7-4fe3-9f53-7c378030d851",
+  "Server": "http://localhost/",
+  "Version": "3.6.774.0",
   "ExportStatistics": {
     "$type": "Comindware.Platform.Contracts.TransferStatistics, Comindware.Platform.Contracts",
     "RecordTemplates": {

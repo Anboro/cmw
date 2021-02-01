@@ -1,0 +1,13 @@
+{
+  "$type": "Comindware.Platform.Contracts.DocumentExportTemplateModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "ExportTemplate",
+    "Owner": "Zayavkanaavtomobil",
+    "Alias": "Export_1"
+  },
+  "FileName": "ШаблонУрок9.xlsx",
+  "FileType": "Excel",
+  "StreamId": "cmw.xmlns:.stream:///.572450dbaf8c45ca8c6cee86280e7db5",
+  "ExportAsPdf": true
+}
