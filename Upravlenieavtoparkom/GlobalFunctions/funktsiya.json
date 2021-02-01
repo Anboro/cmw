@@ -1,0 +1,105 @@
+{
+  "$type": "Comindware.Platform.Contracts.GlobalFunctionModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "GlobalFunction",
+    "Alias": "funktsiya"
+  },
+  "Name": "функция",
+  "InputMessageTypeGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "MessageTemplate",
+    "Alias": "_Empty"
+  },
+  "ReturnMessageTypeGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "MessageTemplate",
+    "Alias": "_Empty"
+  },
+  "Definition": {
+    "$type": "Comindware.Platform.Contracts.GlobalExternalServiceDefinitionModel, Comindware.Platform.Contracts",
+    "InputMapping": {
+      "$type": "Comindware.Platform.Contracts.MakeMessageRuleModel, Comindware.Platform.Contracts",
+      "MessageType": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Type": "MessageTemplate",
+        "Alias": "_HttpRequest"
+      },
+      "PropertyMap": {
+        "$type": "Comindware.Platform.Contracts.PropertyMapKeyValueModel[], Comindware.Platform.Contracts",
+        "$values": [
+          {
+            "$type": "Comindware.Platform.Contracts.PropertyMapKeyValueModel, Comindware.Platform.Contracts",
+            "Key": {
+              "$type": "Comindware.Platform.Contracts.ModificationActionModel, Comindware.Platform.Contracts",
+              "PropertyPath": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+                "$values": [
+                  {
+                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                    "Type": "MessageTemplateProperty",
+                    "Owner": "_HttpRequest",
+                    "Alias": "method"
+                  }
+                ]
+              },
+              "PropertyAction": "Replace"
+            },
+            "Value": {
+              "$type": "Comindware.Platform.Contracts.CalculationRuleModel, Comindware.Platform.Contracts",
+              "Type": "Calculation",
+              "Definition": {
+                "$type": "Comindware.Platform.Contracts.ValuesRuleDefinitionModel, Comindware.Platform.Contracts",
+                "Values": {
+                  "$type": "System.Object[], mscorlib",
+                  "$values": [
+                    "cmw.message.type.http.GetMethod"
+                  ]
+                },
+                "Type": "Values"
+              }
+            }
+          },
+          {
+            "$type": "Comindware.Platform.Contracts.PropertyMapKeyValueModel, Comindware.Platform.Contracts",
+            "Key": {
+              "$type": "Comindware.Platform.Contracts.ModificationActionModel, Comindware.Platform.Contracts",
+              "PropertyPath": {
+                "$type": "Comindware.Platform.Contracts.GlobalAlias[], Comindware.Platform.Contracts",
+                "$values": [
+                  {
+                    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+                    "Type": "MessageTemplateProperty",
+                    "Owner": "_HttpRequest",
+                    "Alias": "body"
+                  }
+                ]
+              },
+              "PropertyAction": "Replace"
+            },
+            "Value": {
+              "$type": "Comindware.Platform.Contracts.CalculationRuleModel, Comindware.Platform.Contracts",
+              "Type": "Calculation",
+              "Definition": {
+                "$type": "Comindware.Platform.Contracts.ApplyTemplateRuleDefinitionModel, Comindware.Platform.Contracts",
+                "Type": "ApplyTemplate"
+              }
+            }
+          }
+        ]
+      },
+      "Type": "MakeMessage"
+    },
+    "ReturnMapping": {
+      "$type": "Comindware.Platform.Contracts.MakeMessageRuleModel, Comindware.Platform.Contracts",
+      "MessageType": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Type": "MessageTemplate",
+        "Alias": "_Empty"
+      },
+      "ContextObject": "message",
+      "Type": "MakeMessage"
+    },
+    "Type": "ExternalService"
+  }
+}

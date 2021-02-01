@@ -1,7 +1,67 @@
 {
   "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
-  "Name": "Kun",
-  "Alias": "Kun",
-  "Database": "64e7ed88-38eb-415c-8a79-167ccef51fc0",
-  "Version": "3.5.882.0"
+  "Name": "Управление автопарком",
+  "Alias": "Upravlenieavtoparkom",
+  "ExportDate": "2021-02-01T18:38:36.3931166+03:00",
+  "Database": "37beecfb-7156-4349-8cda-f309ac89143c",
+  "Server": "http://localhost/",
+  "Version": "3.6.779.0",
+  "ExportStatistics": {
+    "$type": "Comindware.Platform.Contracts.TransferStatistics, Comindware.Platform.Contracts",
+    "RecordTemplates": {
+      "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
+      "Found": 11,
+      "Exported": 11
+    },
+    "AccountTemplates": {
+      "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
+      "Found": 0,
+      "Exported": 0
+    },
+    "ProcessTemplates": {
+      "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
+      "Found": 0,
+      "Exported": 0
+    },
+    "CaseTemplates": {
+      "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
+      "Found": 0,
+      "Exported": 0
+    },
+    "Synchronizations": {
+      "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
+      "Found": 0,
+      "Exported": 0
+    },
+    "Roles": {
+      "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
+      "Found": 0,
+      "Exported": 0
+    },
+    "MessageTemplates": {
+      "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
+      "Found": 0,
+      "Exported": 0
+    },
+    "GlobalFunctions": {
+      "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
+      "Found": 0,
+      "Exported": 0
+    },
+    "Workspaces": {
+      "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
+      "Found": 0,
+      "Exported": 0
+    },
+    "Routes": {
+      "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
+      "Found": 0,
+      "Exported": 0
+    },
+    "GlobalVariables": {
+      "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
+      "Found": 1,
+      "Exported": 1
+    }
+  }
 }
