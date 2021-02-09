@@ -1,96 +1,33 @@
 {
-  "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
-  "Alias": "Kun",
-  "Kind": "Solution",
-  "State": "Active",
-  "Children": {
-    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
-    "$values": [
-      {
-        "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
-        "Alias": "События",
-        "Kind": "Collection",
-        "State": "Suspend",
-        "Children": {
-          "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
-          "$values": []
-        }
-      },
-      {
-        "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
-        "Alias": "OData интеграции",
-        "Kind": "Collection",
-        "State": "Suspend",
-        "Children": {
-          "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
-          "$values": []
-        }
-      },
-      {
-        "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
-        "Alias": "Процессы",
-        "Kind": "Collection",
-        "State": "Active",
-        "Children": {
-          "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
-          "$values": [
-            {
-              "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
-              "Alias": "ShP444",
-              "Kind": "Process",
-              "State": "Active",
-              "Children": {
-                "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
-                "$values": []
-              }
-            },
-            {
-              "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
-              "Alias": "ShP55",
-              "Kind": "Process",
-              "State": "Active",
-              "Children": {
-                "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
-                "$values": []
-              }
-            },
-            {
-              "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
-              "Alias": "ShP",
-              "Kind": "Process",
-              "State": "Active",
-              "Children": {
-                "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
-                "$values": [
-                  {
-                    "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
-                    "Alias": "1.0",
-                    "Kind": "ProcessScheme",
-                    "State": "Active",
-                    "Children": {
-                      "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts]], mscorlib",
-                      "$values": [
-                        {
-                          "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
-                          "Alias": "noneStartEvent1",
-                          "Kind": "NoneEvent",
-                          "State": "Active"
-                        },
-                        {
-                          "$type": "Comindware.Platform.Contracts.BehaviourStateModel, Comindware.Platform.Contracts",
-                          "Alias": "noneEndEvent1",
-                          "Kind": "NoneEvent",
-                          "State": "Active"
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      }
-    ]
-  }
+  "$type": "System.Collections.Generic.Dictionary`2[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts],[Comindware.Platform.Contracts.BehaviourStateType, Comindware.Platform.Contracts]], mscorlib",
+  "SchemeActivity@diagram.8.timerIntermediateEvent2": "Active",
+  "SchemeActivity@diagram.8.noneEndEvent1": "Undefined",
+  "SchemeActivity@diagram.8.noneStartEvent1": "Undefined",
+  "SchemeActivity@diagram.8.userTask1": "Undefined",
+  "SchemeActivity@diagram.8.exclusiveGate1": "Active",
+  "SchemeActivity@diagram.8.userTask2": "Undefined",
+  "SchemeActivity@diagram.8.exclusiveGate2": "Active",
+  "SchemeActivity@diagram.8.exclusiveGate3": "Active",
+  "SchemeActivity@diagram.8.userTask4": "Undefined",
+  "SchemeActivity@diagram.8.userTask5": "Undefined",
+  "SchemeActivity@diagram.8.exclusiveGate4": "Active",
+  "SchemeActivity@diagram.8.noneEndEvent2": "Undefined",
+  "SchemeActivity@diagram.8.timerIntermediateEvent1": "Undefined",
+  "SchemeActivity@diagram.7.noneEndEvent1": "Active",
+  "SchemeActivity@diagram.7.noneStartEvent1": "Active",
+  "SchemeActivity@diagram.6.userTask1": "Active",
+  "SchemeActivity@diagram.6.exclusiveGate1": "Active",
+  "SchemeActivity@diagram.6.noneStartEvent2": "Active",
+  "SchemeActivity@diagram.6.noneStartEvent1": "Active",
+  "SchemeActivity@diagram.6.noneEndEvent1": "Active",
+  "SchemeActivity@diagram.5.noneEndEvent1": "Active",
+  "SchemeActivity@diagram.5.noneStartEvent1": "Active",
+  "SchemeActivity@diagram.4.noneEndEvent1": "Undefined",
+  "SchemeActivity@diagram.4.noneStartEvent1": "Undefined",
+  "SchemeActivity@diagram.3.noneEndEvent1": "Active",
+  "SchemeActivity@diagram.3.noneStartEvent1": "Active",
+  "SchemeActivity@diagram.2.noneEndEvent1": "Undefined",
+  "SchemeActivity@diagram.2.noneStartEvent1": "Undefined",
+  "SchemeActivity@diagram.1.noneEndEvent1": "Active",
+  "SchemeActivity@diagram.1.noneStartEvent1": "Active"
 }
