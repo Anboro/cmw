@@ -1,17 +1,17 @@
 {
   "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
-  "Name": "управление",
-  "Alias": "upravlenie",
-  "ExportDate": "2021-02-01T15:03:23.648291+03:00",
-  "Database": "c8321bbf-6bd7-4fe3-9f53-7c378030d851",
-  "Server": "http://localhost/",
-  "Version": "3.6.787.0",
+  "Name": "нгшлн",
+  "Alias": "ngshln",
+  "ExportDate": "2021-04-01T16:01:19.9229084+03:00",
+  "Database": "f4985f6c-adc2-474b-82f3-05c19d403760",
+  "Server": "http://localhost:8083/",
+  "Version": "3.6.854.0",
   "ExportStatistics": {
     "$type": "Comindware.Platform.Contracts.TransferStatistics, Comindware.Platform.Contracts",
     "RecordTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
-      "Found": 0,
-      "Exported": 0
+      "Found": 2,
+      "Exported": 2
     },
     "AccountTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
