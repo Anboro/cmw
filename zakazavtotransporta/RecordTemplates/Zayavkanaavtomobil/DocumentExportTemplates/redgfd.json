@@ -1,0 +1,27 @@
+{
+  "$type": "Comindware.Platform.Contracts.DocumentExportTemplateModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "ExportTemplate",
+    "Owner": "Zayavkanaavtomobil",
+    "Alias": "redgfd"
+  },
+  "FileName": "ШаблонЭкспортаАвтопарк.xlsx",
+  "FileType": "Excel",
+  "NameRuleModel": {
+    "$type": "Comindware.Platform.Contracts.CalculationRuleModel, Comindware.Platform.Contracts",
+    "Type": "Calculation",
+    "Definition": {
+      "$type": "Comindware.Platform.Contracts.ValuesRuleDefinitionModel, Comindware.Platform.Contracts",
+      "Values": {
+        "$type": "System.Object[], mscorlib",
+        "$values": [
+          "лол"
+        ]
+      },
+      "Type": "Values"
+    }
+  },
+  "StreamId": "cmw.xmlns:.stream:///.62200a9e461b49199bb881b7c3e8efa1",
+  "ExportAsPdf": true
+}

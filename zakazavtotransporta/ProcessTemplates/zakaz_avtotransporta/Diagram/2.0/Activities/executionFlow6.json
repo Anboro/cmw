@@ -1,0 +1,104 @@
+{
+  "$type": "Comindware.Platform.Contracts.FlowActivityModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Activity",
+    "Owner": "zakaz_avtotransporta",
+    "Alias": "executionFlow6"
+  },
+  "TargetActivity": {
+    "$type": "Comindware.Platform.Contracts.ConnectorModel, Comindware.Platform.Contracts",
+    "Target": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "Activity",
+      "Owner": "zakaz_avtotransporta",
+      "Alias": "userTask1"
+    },
+    "TargetConnectorIndex": 70
+  },
+  "SourceActivity": {
+    "$type": "Comindware.Platform.Contracts.ConnectorModel, Comindware.Platform.Contracts",
+    "Target": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "Activity",
+      "Owner": "zakaz_avtotransporta",
+      "Alias": "exclusiveGate2"
+    },
+    "TargetConnectorIndex": 20
+  },
+  "Points": {
+    "$type": "Comindware.Platform.Contracts.VectorModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 238.258566502071,
+        "Y": 286.729771913327
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 238.258566502071,
+        "Y": 306.729771913327
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 238.258566502071,
+        "Y": 320.0
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": -141.741433497929,
+        "Y": 320.0
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": -141.741433497929,
+        "Y": -101.270228086673
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": -141.741433497929,
+        "Y": -121.270228086673
+      }
+    ]
+  },
+  "SequenceDefinition": {
+    "$type": "Comindware.Platform.Contracts.SequenceFlowDefinitionModel, Comindware.Platform.Contracts",
+    "IsDefault": true,
+    "Condition": {
+      "$type": "Comindware.Platform.Contracts.ConditionRuleModel, Comindware.Platform.Contracts",
+      "Type": "Condition",
+      "Definition": {
+        "$type": "Comindware.Platform.Contracts.ExpressionRuleDefinitionModel, Comindware.Platform.Contracts",
+        "Expression": "$odobreno",
+        "Type": "Expression"
+      }
+    }
+  },
+  "Title": "НЕТ",
+  "IsTitleSet": false,
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 521.741433497929,
+    "Y": 676.270228086673
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Width": 0.0,
+    "Height": 0.0
+  },
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Activity",
+    "Owner": "zakaz_avtotransporta",
+    "Alias": "lane2"
+  },
+  "OwnerEmbeddedProcessActivityAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "MountedOnAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "Type": "ExecutionFlow"
+}

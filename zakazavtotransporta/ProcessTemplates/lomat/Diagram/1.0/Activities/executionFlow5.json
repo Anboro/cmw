@@ -1,0 +1,93 @@
+{
+  "$type": "Comindware.Platform.Contracts.FlowActivityModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Activity",
+    "Owner": "lomat",
+    "Alias": "executionFlow5"
+  },
+  "TargetActivity": {
+    "$type": "Comindware.Platform.Contracts.ConnectorModel, Comindware.Platform.Contracts",
+    "Target": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "Activity",
+      "Owner": "lomat",
+      "Alias": "userTask3"
+    },
+    "TargetConnectorIndex": 10
+  },
+  "SourceActivity": {
+    "$type": "Comindware.Platform.Contracts.ConnectorModel, Comindware.Platform.Contracts",
+    "Target": {
+      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+      "Type": "Activity",
+      "Owner": "lomat",
+      "Alias": "exclusiveGate1"
+    },
+    "TargetConnectorIndex": 20
+  },
+  "Points": {
+    "$type": "Comindware.Platform.Contracts.VectorModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 4.09356935582082,
+        "Y": 4.48186879012923
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 4.09356935582082,
+        "Y": 24.4818687901292
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 4.09356935582082,
+        "Y": 26.4818687901293
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+        "X": 4.09356935582082,
+        "Y": 46.4818687901293
+      }
+    ]
+  },
+  "SequenceDefinition": {
+    "$type": "Comindware.Platform.Contracts.SequenceFlowDefinitionModel, Comindware.Platform.Contracts",
+    "IsDefault": false,
+    "Condition": {
+      "$type": "Comindware.Platform.Contracts.ConditionRuleModel, Comindware.Platform.Contracts",
+      "Type": "Condition",
+      "Definition": {
+        "$type": "Comindware.Platform.Contracts.ExpressionRuleDefinitionModel, Comindware.Platform.Contracts",
+        "Expression": "$odobreno",
+        "Type": "Expression"
+      }
+    }
+  },
+  "IsTitleSet": false,
+  "Position": {
+    "$type": "Comindware.Platform.Contracts.VectorModel, Comindware.Platform.Contracts",
+    "X": 555.906430644179,
+    "Y": 458.518131209871
+  },
+  "Size": {
+    "$type": "Comindware.Platform.Contracts.DimensionsModel, Comindware.Platform.Contracts",
+    "Width": 0.0,
+    "Height": 0.0
+  },
+  "Owner": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Activity",
+    "Owner": "lomat",
+    "Alias": "lane2"
+  },
+  "OwnerEmbeddedProcessActivityAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "MountedOnAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "Type": "ExecutionFlow"
+}

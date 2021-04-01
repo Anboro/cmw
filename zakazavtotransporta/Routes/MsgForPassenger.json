@@ -1,0 +1,47 @@
+{
+  "$type": "Comindware.Platform.Contracts.CommunicationRouteModel, Comindware.Platform.Contracts",
+  "Name": "MsgForPassenger",
+  "CommunicationChannelName": "Новый канал",
+  "MessageType": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "MessageTemplate",
+    "Alias": "Msg"
+  },
+  "IsUsePersonalCommunicationChannel": false,
+  "PersonalChannelAccountProperty": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "Map": {
+    "$type": "Comindware.Platform.Contracts.ResultHandlingMapModel[], Comindware.Platform.Contracts",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ResultHandlingMapModel, Comindware.Platform.Contracts",
+        "MessageTypeAlias": "{Email}",
+        "ResponseKey": "ToAddress"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ResultHandlingMapModel, Comindware.Platform.Contracts",
+        "MessageTypeAlias": "kuzyaka",
+        "ResponseKey": "ToName"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ResultHandlingMapModel, Comindware.Platform.Contracts",
+        "MessageTypeAlias": "false",
+        "ResponseKey": "MeetingEnabled"
+      }
+    ]
+  },
+  "Type": "Outbound",
+  "DataSet": "MailSet",
+  "ResponseFormat": "AsIs",
+  "IsDisabled": false,
+  "MessageName": "Msg",
+  "ProcessTemplate": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "Undefined"
+  },
+  "RouteTarget": "Undefined",
+  "IsInternal": false,
+  "Severity": "Undefined"
+}

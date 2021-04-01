@@ -1,8 +1,8 @@
 {
   "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
-  "Name": "нгшлн",
-  "Alias": "ngshln",
-  "ExportDate": "2021-04-01T13:04:11.9376996+03:00",
+  "Name": "заказ автотранспорта",
+  "Alias": "zakazavtotransporta",
+  "ExportDate": "2021-04-01T15:59:25.5121236+03:00",
   "Database": "f4985f6c-adc2-474b-82f3-05c19d403760",
   "Server": "http://localhost:8083/",
   "Version": "3.6.854.0",
@@ -10,8 +10,8 @@
     "$type": "Comindware.Platform.Contracts.TransferStatistics, Comindware.Platform.Contracts",
     "RecordTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
-      "Found": 1,
-      "Exported": 1
+      "Found": 15,
+      "Exported": 15
     },
     "AccountTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
