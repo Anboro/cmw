@@ -1,17 +1,18 @@
 {
   "$type": "Comindware.Platform.Contracts.TransferMetadata, Comindware.Platform.Contracts",
-  "Name": "заказ автотранспорта",
-  "Alias": "zakazavtotransporta",
-  "ExportDate": "2021-04-01T15:59:25.5121236+03:00",
-  "Database": "f4985f6c-adc2-474b-82f3-05c19d403760",
-  "Server": "http://localhost:8083/",
-  "Version": "3.6.854.0",
+  "Name": "System business app",
+  "Alias": "systemSolution",
+  "Description": "Системное бизнес приложение",
+  "ExportDate": "2021-04-29T17:25:56.8206703+03:00",
+  "Database": "4ff51007-2277-4b1e-ada3-c46c5ed854b1",
+  "Server": "http://localhost/",
+  "Version": "3.6.922.0",
   "ExportStatistics": {
     "$type": "Comindware.Platform.Contracts.TransferStatistics, Comindware.Platform.Contracts",
     "RecordTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
-      "Found": 15,
-      "Exported": 15
+      "Found": 1,
+      "Exported": 1
     },
     "AccountTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
